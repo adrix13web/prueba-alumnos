@@ -14,6 +14,6 @@ function cambiarImagen() {
   if (imagen.src.includes("gatito.jpg")) {
     imagen.src = "css/js/perrito.jpg";
   } else {
-    imagen.src = "css/js/perrito.jpg";
+    imagen.src = "css/js/gatito.jpg";
   }
 }
