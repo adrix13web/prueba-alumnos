@@ -12,8 +12,8 @@ function cambiarImagen() {
   let imagen = document.getElementById("imagen");
 
   if (imagen.src.includes("gatito.jpg")) {
-    imagen.src = "img/perrito.jpg";
+    imagen.src = "css/js/perrito.jpg";
   } else {
-    imagen.src = "img/gatito.jpg";
+    imagen.src = "css/js/perrito.jpg";
   }
 }
